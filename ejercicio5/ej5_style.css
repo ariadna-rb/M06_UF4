@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+#section1 {
+    background-color: lightblue;
+    color: #333;
+}
+
+/* Agrega estilos para los colores en cada sección */
