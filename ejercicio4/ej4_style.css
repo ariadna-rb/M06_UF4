@@ -10,4 +10,8 @@ body {
     border: 1px solid #ddd;
 }
 
+h2 {
+    font-size: 40px;
+  }
+
 /* Agrega los estilos para las diferentes unidades de medida en cada sección */
