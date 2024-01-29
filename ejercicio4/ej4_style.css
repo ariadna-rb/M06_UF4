@@ -4,10 +4,20 @@ body {
     padding: 20px;
 }
 
-.section {
+.section1 {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #000038;
+}
+.section2 {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #000088;
+}
+.section3 {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #0000f8;
 }
 
 h2 {
