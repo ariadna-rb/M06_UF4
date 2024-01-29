@@ -7,8 +7,8 @@ body {
 .section1 {
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #000038;
-    background-color: #0000384d;
+    border: 1px solid #1d0038;
+    background-color: #1600384d;
 }
 .section2 {
     margin-bottom: 20px;
@@ -24,7 +24,11 @@ body {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
 }
 
 /* Agrega los estilos para las diferentes unidades de medida en cada sección */
