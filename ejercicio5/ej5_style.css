@@ -4,15 +4,27 @@ body {
     padding: 20px;
 }
 
-.section {
+.section1 {
     margin-bottom: 20px;
     padding: 20px;
-    border: 2px solid #333;
+    border: 1px solid #000038;
+    background-color: #0000384d;
+}
+.section2 {
+    margin-bottom: 20px;
+    padding: 30px;
+    border: 2px solid #000088;
+    background-color: #00008839;
+}
+.section3 {
+    margin-bottom: 20px;
+    padding: 40px;
+    border: 1px solid #0000f8;
+    background-color: #0000f82b;
 }
 
-#section1 {
-    background-color: lightblue;
-    color: #333;
+h2 {
+    font-size: 40px;
 }
 
 /* Agrega estilos para los colores en cada sección */
