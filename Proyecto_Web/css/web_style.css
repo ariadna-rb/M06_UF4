@@ -5,7 +5,7 @@ body {
 }
 
 /* Encabezados */
-h1, h2 {
+h1 {
     font-size: 40px;
     color: rgb(0, 0, 128); /* Azul oscuro */
 }
