@@ -1,16 +1,16 @@
-h1{
+h1{ /* Titulo 1 */
     font-size: 40px;
     color: orange;
 }
 
-h3, h4 {
+h3, h4 { /* Titulo 3 i 4 pero al estar en cascada, esta no se aplica, solo se aplica la ultima */
     font-size: 24px;
     color: blue;
 }
 
 /* Probando la aplicación de los estilos en cascada. Se aplica el último estilo declarado */
 
-h3, h4 {
+h3, h4 { /* Titulo 3 i 4 (este si se aplica) */
     font-size: 32px;
     color: black;
 }
@@ -20,7 +20,7 @@ div.principal {
 }
 
 .principal p {
-    color: rgba(5, 101, 5, 0.2);
+    color: rgb(5, 101, 5);
 }
 
 #id_contact {
@@ -28,7 +28,7 @@ div.principal {
     color: antiquewhite;
 }
 
-p {
+p { /* Parrafo */
     font-size: 1.1em;
     font-weight: normal;
     font-style: normal;
