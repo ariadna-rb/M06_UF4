@@ -1,0 +1,124 @@
+h1{
+    font-size: 40px;
+    color: orange;
+}
+
+h3, h4 {
+    font-size: 24px;
+    color: blue;
+}
+
+/* Probando la aplicación de los estilos en cascada. Se aplica el último estilo declarado */
+
+h3, h4 {
+    font-size: 32px;
+    color: black;
+}
+
+div.principal {
+    color: purple;
+}
+
+.principal p {
+    color: rgba(5, 101, 5, 0.2);
+}
+
+#id_contact {
+    background-color: black;
+    color: antiquewhite;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+a, a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+}
+
+a:focus {
+    background-color: lightgray;
+}
+
+div.ej_display{
+    background-color: lightgray;
+    display: block;
+}
+
+span.ej_display{
+    background-color: orange;
+    margin-right: 5px;
+    /*padding: 10px;
+    display: inline-block
+    */
+}
+
+/*Recomendación usar tamaños mínimos o relativos y no absolutos por el overflow */
+div.ej_overflow{
+    height: 100px;
+    background-color: burlywood;
+    /* overflow: scroll|hidden|auto|visible; */
+}
+
+/*Ejemplo uso de float. El div contenedor se colapsa y no llega hasta el final. 
+Hay que limpiar los floats. Una manera es overflow:hidden */
+div.ej_float{
+    background-color: burlywood;
+    border: solid 1px black;
+    /* overflow: hidden; */
+}
+
+.parrafo_float{
+    float: left;
+    width: 50%;
+}
+
+/*Ejemplo uso position */
+div.ej_position{
+    background-color: lightskyblue;
+    /* Si queremos que el span tenga posición absoluta respecto a su contenedor más próximo*/
+    /*position: relative; */
+   
+}
+
+.ej_position p{
+    border: solid 1px black;
+}
+
+/* Ejemplo de posición absoluta con respecto a la ventana del navegador */
+.ej_position span{
+    background-color: orange;
+    padding: 10px;
+    position: absolute;
+    right: 0px; /*left|right 20px*/
+    bottom: 0px; /*top|bottom 50px*/
+    /*
+    bottom: 0px;
+    right: 0px;
+    */
+    /* z-index: 1; */
+}
+/* Si los dos elementos están en la posición absoluta y se solapan */
+/*
+.ej_position .alt_span{
+    background-color: lightseagreen;
+    padding: 10px;
+    position: absolute;
+    right: 0px; 
+    bottom: 0px; 
+    z-index: 0;
+}
+*/

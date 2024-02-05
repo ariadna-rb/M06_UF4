@@ -1,0 +1,181 @@
+img {
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+  }
+
+ul.nav {
+    list-style-type: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #402516;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #73482F;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+    background-color: bisque;
+}
+
+.border1 {
+    border-width: 5px;
+    border-style: solid;
+    border-color: #402516;
+    background-color: #F29849;
+}
+
+.border2 {
+    border: 5px dashed #F29849; /* Forma abreviada de definir todas las propiedades de los bordes */
+    background-color: #402516;
+}
+
+.border3 {
+    border: 5px dotted #402516; /* Forma abreviada de definir todas las propiedades de los bordes */
+    background-color: #73482F;
+}
+
+.radius1 {
+    border-radius: 20px;
+}
+
+.radius2 {
+    border-radius: 10px 20px 30px 50px;
+}
+
+.radius3 {
+    border-radius: 20px 50px;
+}
+
+.radius4 {
+    border-radius: 50%;
+}
+
+
+/* Diseño UI/UX: Difuminado mayor de la sombra hace que el objeto parezca más distanciado del fondo */
+
+.shadow1 {
+    box-shadow: 5px 5px 10px #402516; /* box-shadow: inset ejeX ejeY difuminado espaciado color; */
+}
+
+.shadow2 {
+    box-shadow: 5px 5px 10px 8px #402516;
+}
+
+.shadow3 {
+    box-shadow: inset 5px 5px 10px 8px #402516;
+}
+
+.shadow4 {
+    box-shadow: 5px 5px 10px rgba(64, 37, 22, 0.4);
+}
+
+.shadow5 {
+    box-shadow: 5px 5px 8px #402516,
+                -5px -5px 8px #73482F;
+}
+
+/* Ejemplo de uso de las sombras*/
+
+.clearfix{
+    width: 100%;
+    height: 400px;
+    background-color: inherit;
+    overflow: hidden;
+}
+
+div.polaroid img {
+    width: 284px;
+    height: 213px;
+    border-radius: inherit;
+}
+
+div.polaroid {
+    width: 284px;
+    height: 300px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid gray;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    overflow: auto;
+  }
+  
+div.rotar_der {
+    float: left;
+    transform: rotate(7deg);
+  }
+  
+div.rotar_izq {
+    float: left;
+    transform: rotate(-8deg);
+  }
+
+.clearfix:before,
+.clearfix:after {
+       content: " ";
+       display: table;
+       clear: both;
+  } 
+
+div.img_fondo {
+    width: 400px;
+    min-height: 600px;
+    background-color: inherit;
+    border: #402516 solid;
+    background-image: url(../img/cupcake2.jpg);
+    background-repeat: no-repeat;
+    /* Prueba todos los valores posibles que puedes asignar a la propiedad background-position. Consulta chuleta 
+    background-position: right top 10px;
+    */
+    background-position: left top;
+    /* Prueba todos los valores que puedes asignar a la propiedad background-size. Consulta la chuleta 
+    background-size: 90% auto;
+    background-size: auto 50px; 
+    background-size: auto 100%;
+    background-size: 100% auto;
+    background-size: 90% 70%;
+    background-size: contain; 
+    */
+    background-size: cover;
+}
+
+/* Webfonts */
+@font-face{
+    font-family: "Quicksand";
+    src: url(../fonts/Quicksand/Quicksand-VariableFont_wght.ttf) format("truetype");
+    font-weight: normal bold;
+    font-style: normal;
+  } 
+  
+body {
+    font-family: Quicksand, sans-serif; /* Tipografías sin remates: */
+    /* font-family: 'Crimson Pro', serif; /* Ejemplo de uso de API CSS v2 de Google Fonts*/
+}
+
+h2, h3, h4 {
+    /* Al usar tipografía del SO (sistema operativo) debemos crear una pila/stack de fuentes tipográficas. 
+        El navegador intentará cargar la primera, si no puede la siguiente...etc.
+        Tipografías sin remates, más comunes en la web: font-family: Arial, Helvetica, sans-serif;  
+        Tipografías con remates o serifa: font-family: 'Times New Roman', Times, serif; 
+    */
+    font-weight: bold;
+}
