@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 100px;
+}
+
+h1, h2 {
+    font-size: 36px;
+}
+
+div {
+    background-color: antiquewhite;
+    float: left;
+    border: 4px solid white;
+    padding: 20px;
+}
+
+.principal {
+    width: 60%;
+    min-height: 30em;
+}
+
+.secundaria {
+    width: 40%;
+    min-height: 30em;
+}
+
+img {
+    border: 2px solid grey;
+    /* Ejemplo para hacer responsive la imagen - Descomenta la siguiente línea de código */
+    /* max-width: 100%; */
+}
+
+/* Diseño desktop first - pensar en el escritorio primero y luego ir reduciendo */
+
+/* Ejemplo de media querie para hacer responsive la web cuando el espacio es muy reducido 
+   Las cajas deben flotar una debajo de la otra y no al lado. 
+*/
+
+/*
+@media screen and (max-width: 1000px) {
+    h1,h2 {
+        font-size: 24px;
+    }
+    body {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .principal,
+    .secundaria {
+        width: 100%;
+        float: none;
+    }
+}
+
+*/
