@@ -16,17 +16,17 @@ div {
     background-color: rgb(145, 200, 233); /* color de fondo de las cajas */
     float: left; /* en que direccion estara puesto el texto */
     border: 2px solid white; /* color y tamaño del borde de la caja */
-    padding: 40px; /* AAA */
+    padding: 40px; /* Espaciado de un elemento */
 }
 
 .principal {
-    width: 40%; /* AAA */
-    min-height: 30em; /* AAA */
+    width: 40%; /* Anchura de un elemento */
+    min-height: 30em; /* Altura mínima de un elemento */
 }
 
 .secundaria {
-    width: 60%; /* AAA */
-    min-height: 30em; /* AAA */
+    width: 60%; /* Anchura de un elemento. */
+    min-height: 30em; /* Altura mínima de un elemento */
 }
 
 img {
