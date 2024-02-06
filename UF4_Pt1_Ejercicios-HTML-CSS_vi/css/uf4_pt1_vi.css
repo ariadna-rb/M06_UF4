@@ -4,7 +4,7 @@ img { /* Titulo 1 */
     height: 300px;
   }
 
-ul.nav {
+ul.nav { /* formato del menu superior */
     list-style-type: none;
     list-style-position: inside;
     margin: 0;
@@ -13,11 +13,11 @@ ul.nav {
     background-color: #402516;
 }
 
-ul.nav li {
+ul.nav li { /* donde se encuentran las cosas dentro del menu superior */
     float: left;
 }
 
-ul.nav li a {
+ul.nav li a { /* formato de letra de lo que se encuentra en la barra de menu */
     display: inline-block;
     color: white;
     text-align: center;
@@ -25,7 +25,7 @@ ul.nav li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover { /* para cuando pases el cursos por encima de los botones, que cambie al siguiente color */
     background-color: #73482F;
 }
 
@@ -96,20 +96,20 @@ div { /* contenedores */
 
 /* Ejemplo de uso de las sombras*/
 
-.clearfix{
+.clearfix{ /* formato de la caja de las fotos tipo polaroid */
     width: 100%;
     height: 400px;
     background-color: inherit;
     overflow: hidden;
 }
 
-div.polaroid img {
+div.polaroid img { /* tamaño imagenes tipo polaroid */
     width: 284px;
     height: 213px;
     border-radius: inherit;
 }
 
-div.polaroid {
+div.polaroid { /* caja que simula la forma de foto de polaroid */
     width: 284px;
     height: 300px;
     padding: 10px 10px 20px 10px;
@@ -119,12 +119,12 @@ div.polaroid {
     overflow: auto;
   }
   
-div.rotar_der {
+div.rotar_der { /* rotacion y posicion de la polaroid derecha */
     float: left;
     transform: rotate(7deg);
   }
   
-div.rotar_izq {
+div.rotar_izq { /* rotacion y posicion de la polaroid izquierda */
     float: left;
     transform: rotate(-8deg);
   }
@@ -136,7 +136,7 @@ div.rotar_izq {
        clear: both;
   } 
 
-div.img_fondo {
+div.img_fondo { /* formato de la imagen de fondo */
     width: 400px;
     min-height: 600px;
     background-color: inherit;
