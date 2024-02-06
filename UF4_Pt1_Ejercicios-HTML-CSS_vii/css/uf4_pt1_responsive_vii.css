@@ -1,36 +1,36 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* AAA */
 }
 
 body {
-    font-size: 18px;
-    font-family: sans-serif;
-    margin: 50px;
+    font-size: 18px; /* tamaño de la letra*/
+    font-family: sans-serif; /* fuente de la letra */
+    margin: 50px; /* margen */
 }
 
 h1, h2 {
-    font-size: 30px;
+    font-size: 30px;  /* tamaño de la letra de los tipos de titulos 1 y 2 */
 }
 
 div {
-    background-color: rgb(145, 200, 233);
-    float: left;
-    border: 2px solid white;
-    padding: 40px;
+    background-color: rgb(145, 200, 233); /* color de fondo de las cajas */
+    float: left; /* en que direccion estara puesto el texto */
+    border: 2px solid white; /* color y tamaño del borde de la caja */
+    padding: 40px; /* AAA */
 }
 
 .principal {
-    width: 40%;
-    min-height: 30em;
+    width: 40%; /* AAA */
+    min-height: 30em; /* AAA */
 }
 
 .secundaria {
-    width: 60%;
-    min-height: 30em;
+    width: 60%; /* AAA */
+    min-height: 30em; /* AAA */
 }
 
 img {
-    border: 3px solid rgb(73, 109, 193);
+    border: 3px solid rgb(73, 109, 193); /* color y tamaño del borde de la imagen */
     /* Ejemplo para hacer responsive la imagen - Descomenta la siguiente línea de código */
     /* max-width: 100%; */
 }
