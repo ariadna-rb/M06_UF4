@@ -10,7 +10,7 @@ ul.nav { /* formato del menu superior */
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #402516;
+    background-color: #032051;
 }
 
 ul.nav li { /* donde se encuentran las cosas dentro del menu superior */
@@ -26,7 +26,7 @@ ul.nav li a { /* formato de letra de lo que se encuentra en la barra de menu */
 }
 
 li a:hover { /* para cuando pases el cursos por encima de los botones, que cambie al siguiente color */
-    background-color: #73482F;
+    background-color: #3758ad;
 }
 
 div { /* contenedores */
@@ -34,24 +34,24 @@ div { /* contenedores */
     height: 200px;
     margin: 20px;
     display: inline-block;
-    background-color: bisque;
+    background-color: rgb(89, 143, 182);
 }
 
 .border1 { /* borde/marco tipo 1 */
     border-width: 5px;
     border-style: solid;
-    border-color: #402516;
-    background-color: #F29849;
+    border-color: #0c377c;
+    background-color: #49a0f2;
 }
 
 .border2 { /* borde/marco tipo 2 */
-    border: 5px dashed #F29849; /* Forma abreviada de definir todas las propiedades de los bordes */
-    background-color: #402516;
+    border: 5px dashed #49a0f2; /* Forma abreviada de definir todas las propiedades de los bordes */
+    background-color: #0c377c;
 }
 
 .border3 { /* borde/marco tipo 3 */
-    border: 5px dotted #402516; /* Forma abreviada de definir todas las propiedades de los bordes */
-    background-color: #73482F;
+    border: 5px dotted #0c377c; /* Forma abreviada de definir todas las propiedades de los bordes */
+    background-color:#49a0f2;
 }
 
 .radius1 { /* forma tipo 1 */
@@ -74,15 +74,15 @@ div { /* contenedores */
 /* Diseño UI/UX: Difuminado mayor de la sombra hace que el objeto parezca más distanciado del fondo */
 
 .shadow1 { /* forma de sombra 1 */
-    box-shadow: 5px 5px 10px #402516; /* box-shadow: inset ejeX ejeY difuminado espaciado color; */
+    box-shadow: 5px 5px 10px #032051; /* box-shadow: inset ejeX ejeY difuminado espaciado color; */
 }
 
 .shadow2 { /* forma de sombra 2 */
-    box-shadow: 5px 5px 10px 8px #402516;
+    box-shadow: 5px 5px 10px 8px #032051;
 }
 
 .shadow3 { /* forma de sombra 3 */
-    box-shadow: inset 5px 5px 10px 8px #402516;
+    box-shadow: inset 5px 5px 10px 8px #032051;
 }
 
 .shadow4 { /* forma de sombra 4 */
@@ -90,8 +90,8 @@ div { /* contenedores */
 }
 
 .shadow5 { /* forma de sombra 5 */
-    box-shadow: 5px 5px 8px #402516,
-                -5px -5px 8px #73482F;
+    box-shadow: 5px 5px 8px #032051,
+                -5px -5px 8px #49a0f2;
 }
 
 /* Ejemplo de uso de las sombras*/
@@ -113,8 +113,8 @@ div.polaroid { /* caja que simula la forma de foto de polaroid */
     width: 284px;
     height: 300px;
     padding: 10px 10px 20px 10px;
-    border: 1px solid gray;
-    background-color: white;
+    border: 1px solid rgb(47, 92, 165);
+    background-color: rgb(200, 250, 251);
     box-shadow: 10px 10px 5px #aaaaaa;
     overflow: auto;
   }
@@ -140,7 +140,7 @@ div.img_fondo { /* formato de la imagen de fondo */
     width: 400px;
     min-height: 600px;
     background-color: inherit;
-    border: #402516 solid;
+    border: #032051 solid;
     background-image: url(../img/cupcake2.jpg);
     background-repeat: no-repeat;
     /* Prueba todos los valores posibles que puedes asignar a la propiedad background-position. Consulta chuleta 
