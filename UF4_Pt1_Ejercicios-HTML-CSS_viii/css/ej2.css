@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif; /* API CSS v2 de Google Fonts*/
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9e53b1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #0c1880;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    float: left;
+    width: 70%; /* Ajustar el ancho según sea necesario */
+}
+
+aside {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    float: right;
+    width: 25%; /* Ajustar el ancho según sea necesario */
+    margin-left: 5%; /* Ajustar el margen entre main y aside */
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333;
+}
+
+footer {
+    background-color: #9e53b1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+address {
+    font-style: normal;
+}
+
+.clearfix:before,
+.clearfix:after {
+       content: " ";
+       display: table;
+       clear: both;
+  } 
+
+ iframe {
+    width: 100%;
+    border: 0;
+ } 
+
+iframe.you2 {
+    aspect-ratio: 16/9;
+}
+
+iframe.maps {
+    aspect-ratio: 4/3;
+}

@@ -1,0 +1,57 @@
+body {
+    font-family: 'Permanent Marker', sans-serif; /* API CSS v2 de Google Fonts*/
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.card {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFBC00;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.contact-info p {
+    font-size: 24px;
+    color: #806F40;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #BF9930;
+    padding: 12px;
+}
+
+.contact-info a {
+    display: block;
+    font-size: 20px;
+    color: #0038FF;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.contact-info a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.contact-info a:last-child {
+    margin-bottom: 0;
+}
+
+img {
+    max-width: 100%;
+}
