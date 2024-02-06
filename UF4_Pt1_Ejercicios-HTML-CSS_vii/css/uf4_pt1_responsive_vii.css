@@ -3,17 +3,17 @@
 }
 
 body {
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif;
     margin: 100px;
 }
 
 h1, h2 {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 div {
-    background-color: antiquewhite;
+    background-color: rgb(145, 200, 233);
     float: left;
     border: 4px solid white;
     padding: 20px;
@@ -30,7 +30,7 @@ div {
 }
 
 img {
-    border: 2px solid grey;
+    border: 3px solid rgb(73, 109, 193);
     /* Ejemplo para hacer responsive la imagen - Descomenta la siguiente línea de código */
     /* max-width: 100%; */
 }
