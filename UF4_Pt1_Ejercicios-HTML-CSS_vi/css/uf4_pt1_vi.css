@@ -29,7 +29,7 @@ li a:hover {
     background-color: #73482F;
 }
 
-div {
+div { /* contenedores */
     width: 200px;
     height: 200px;
     margin: 20px;
@@ -37,59 +37,59 @@ div {
     background-color: bisque;
 }
 
-.border1 { 
+.border1 { /* borde/marco tipo 1 */
     border-width: 5px;
     border-style: solid;
     border-color: #402516;
     background-color: #F29849;
 }
 
-.border2 {
+.border2 { /* borde/marco tipo 2 */
     border: 5px dashed #F29849; /* Forma abreviada de definir todas las propiedades de los bordes */
     background-color: #402516;
 }
 
-.border3 {
+.border3 { /* borde/marco tipo 3 */
     border: 5px dotted #402516; /* Forma abreviada de definir todas las propiedades de los bordes */
     background-color: #73482F;
 }
 
-.radius1 {
+.radius1 { /* forma tipo 1 */
     border-radius: 20px;
 }
 
-.radius2 {
+.radius2 { /* forma tipo 2 */
     border-radius: 10px 20px 30px 50px;
 }
 
-.radius3 {
+.radius3 { /* forma tipo 3 */
     border-radius: 20px 50px;
 }
 
-.radius4 {
+.radius4 { /* forma tipo 4 */
     border-radius: 50%;
 }
 
 
 /* Diseño UI/UX: Difuminado mayor de la sombra hace que el objeto parezca más distanciado del fondo */
 
-.shadow1 {
+.shadow1 { /* forma de sombra 1 */
     box-shadow: 5px 5px 10px #402516; /* box-shadow: inset ejeX ejeY difuminado espaciado color; */
 }
 
-.shadow2 {
+.shadow2 { /* forma de sombra 2 */
     box-shadow: 5px 5px 10px 8px #402516;
 }
 
-.shadow3 {
+.shadow3 { /* forma de sombra 3 */
     box-shadow: inset 5px 5px 10px 8px #402516;
 }
 
-.shadow4 {
+.shadow4 { /* forma de sombra 4 */
     box-shadow: 5px 5px 10px rgba(64, 37, 22, 0.4);
 }
 
-.shadow5 {
+.shadow5 { /* forma de sombra 5 */
     box-shadow: 5px 5px 8px #402516,
                 -5px -5px 8px #73482F;
 }
@@ -166,12 +166,12 @@ div.img_fondo {
     font-style: normal;
   } 
   
-body {
+body { /* formato del body */
     font-family: Quicksand, sans-serif; /* Tipografías sin remates: */
     /* font-family: 'Crimson Pro', serif; /* Ejemplo de uso de API CSS v2 de Google Fonts*/
 }
 
-h2, h3, h4 {
+h2, h3, h4 { /* formato de los tipos de titulo 2, 3 y 4 */
     /* Al usar tipografía del SO (sistema operativo) debemos crear una pila/stack de fuentes tipográficas. 
         El navegador intentará cargar la primera, si no puede la siguiente...etc.
         Tipografías sin remates, más comunes en la web: font-family: Arial, Helvetica, sans-serif;  
