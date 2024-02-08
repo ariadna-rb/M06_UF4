@@ -20,7 +20,7 @@
 }
 
 img {
-    opacity: 0.5;
+    opacity: 0.2;
     transition: 0.5s opacity;
 }
 
@@ -31,18 +31,23 @@ img:hover {
 h1 {
     font-size: 20px;
     transition: 1s font-size;
+    text-align: center;
+
 }
 
 h1:hover {
     font-size: 32px;
+    text-align: center;
 }
 
 .oculto{
-    width: 50%;
-    max-height: 15px;
+    width: 60%;
+    max-height: 16px;
+    color: #fff;
+    text-align: center;
     overflow: hidden;
     transition: 0.5s mmax-height;
-    background-color: antiquewhite;
+    background-color: rgb(74, 5, 99);
 }
 
 .oculto:hover {
