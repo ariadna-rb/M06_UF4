@@ -5,9 +5,9 @@
 }
 
 .articulo_resumen {
-  column-count: 2; /* SOL. */
-  column-gap: 3em; /* SOL. */
-  column-rule: thick solid rgba(0, 78, 146, 0.05); /* SOL. */
+  column-count: 2; /* SOL. Elemento que contiene texto para que se distribuya en columnas */
+  column-gap: 3em; /* SOL. Anchura del espacio entre columnas, en un elemento que se le ha aplicado alguna de las propiedades que provocan una distribución del contenido en columnas. */
+  column-rule: thick solid rgba(0, 78, 146, 0.05); /* SOL. Línea separadora entre columnas que sigue las mismas reglas de un border (anchura, tipo de borde, color del borde). */
   margin-bottom: 3em;
   font-weight: 600;
   font-size: 115%;
