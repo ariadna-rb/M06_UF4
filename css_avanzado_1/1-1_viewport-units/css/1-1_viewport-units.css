@@ -1,0 +1,53 @@
+.cabecera {
+  background: linear-gradient(38deg, #000428, #0161b6);
+  color: #fafafa;
+  display: flex;
+}
+
+.cabecera_bloque1 {
+  height: 500px; /* VER. Altura inicial de los bloques */
+  width: 50%;
+  background: url(../images/Ed-Catmull-pixar.jpg) no-repeat 40% top;
+  background-size: cover;
+}
+
+.cabecera_bloque2 {
+  height: 500px; /* VER. Altura inicial de los bloques */
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px; /* VER. Tamaño de la fuente medida absoluta en píxeles */
+}
+
+.articulo {
+  max-width: 40em;
+  margin: 5em auto;
+  padding: 0 3em;
+}
+
+
+
+/* Ajustes para pantallas por debajo de 600px */
+
+@media (max-width: 37.5em) {
+  .cabecera {
+    flex-direction: column;
+  }
+
+  .cabecera_bloque1 {
+    width: 100%;
+    height: 250px;
+  }
+
+  .cabecera_bloque2 {
+    width: 100%;
+    height: auto;
+    padding: 3em;
+  }
+}

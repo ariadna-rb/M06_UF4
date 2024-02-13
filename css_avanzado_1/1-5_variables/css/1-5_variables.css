@@ -1,0 +1,16 @@
+.cabecera {
+  background: #0eaaaa; /* VER. */
+}
+
+.articulo_resumen {
+  color: #0eaaaa; /* VER. */
+}
+
+.articulo_cuerpo > p:first-child::first-letter {
+  color: #0eaaaa; /* VER. */
+}
+
+.imagen-circulo,
+.imagen-hexagono {
+  background: #0eaaaa; /* VER. */
+}

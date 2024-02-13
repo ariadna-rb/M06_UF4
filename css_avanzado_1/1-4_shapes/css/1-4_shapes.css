@@ -1,0 +1,45 @@
+/*
+  Polígono usado: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)
+  (También puedes probar otras formas usando https://bennettfeely.com/clippy/ )
+*/
+
+.imagen-circulo {
+  /* VER. */
+  /* border-radius: 50%; */
+  max-width: 25em;
+  float: right;
+  margin-right: -10em;
+  background: #0161b6;
+}
+
+.imagen-circulo img {
+  /* VER. */
+  display: block;
+  /* border-radius: 50%; */
+  mix-blend-mode: hard-light;
+}
+
+.imagen-hexagono {
+  /* VER. */
+  max-width: 25em;
+  float: left;
+  background: #0161b6;
+  margin-left: -10em;
+  margin-right: 1em;
+}
+
+.imagen-hexagono img {
+  /* VER. */
+  display: block;
+  mix-blend-mode: hard-light;
+}
+
+@media (max-width: 37.5em) {
+  .imagen-circulo {
+    margin: 1em;
+  }
+
+  .imagen-hexagono {
+    margin: 1em;
+  }
+}
