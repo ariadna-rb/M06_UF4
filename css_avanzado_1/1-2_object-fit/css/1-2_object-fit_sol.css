@@ -13,8 +13,8 @@
 .cabecera_bloque1 img {
   height: 100%;
   width: 100%;
-  object-fit: cover; /* SOL. */
-  object-position: center top; /* SOL. */
+  object-fit: cover; /* SOL. Hace que la imagen cubra al 100% toda la superficie definida sin deformarse */
+  object-position: center top; /* SOL. Hace que la imagen se alinee de forma centrada en la parte superior del bloque */
 }
 
 .cabecera_bloque2 {
@@ -25,8 +25,8 @@
 .cabecera_bloque2 img {
   height: 100%;
   width: 100%;
-  object-fit: cover; /* SOL. */
-  object-position: center top; /* SOL. */
+  object-fit: cover; /* SOL. Hace que la imagen cubra al 100% toda la superficie definida sin deformarse */
+  object-position: center top; /* SOL. Hace que la imagen se alinee de forma centrada en la parte superior del bloque */
 }
 
 .cabecera_titulo {
