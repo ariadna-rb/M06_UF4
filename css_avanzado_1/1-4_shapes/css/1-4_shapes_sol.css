@@ -1,16 +1,16 @@
 .imagen-circulo {
-  border-radius: 50%; /* SOL. */
+  border-radius: 50%; /* SOL. Redondea las esquinas del borde exterior de un elemento. */
   max-width: 25em;
   float: right;
   margin-right: -10em;
   background: #0161b6;
-  shape-outside: circle(50%) border-box; /* SOL. */
-  shape-margin: 1em; /* SOL. */
+  shape-outside: circle(50%) border-box; /* SOL. Define una forma (que puede no ser rectangular) alrededor de la cual debe envolverse el contenido en línea adyacente. */
+  shape-margin: 1em; /* SOL. Margen que podemos dejar entre la forma definida por shape-outside y el texto que se distribuye alrededor. */
 }
 
 .imagen-circulo img {
   display: block;
-  border-radius: 50%; /* SOL. */
+  border-radius: 50%; /* SOL. Redondea las esquinas del borde exterior de un elemento. */
   mix-blend-mode: hard-light;
 }
 
@@ -20,9 +20,9 @@
   background: #0161b6;
   margin-left: -10em;
   margin-right: 1em;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* SOL. */
-  shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box; /* SOL. */
-  shape-margin: 1em; /* SOL. */
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); /* SOL. Crea una región de recorte que establece qué parte de un elemento debe mostrarse. Se muestran las partes que están dentro de la región, mientras que las que están fuera están ocultas. */
+  shape-outside: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%) border-box; /* SOL. Define una forma (que puede no ser rectangular) alrededor de la cual debe envolverse el contenido en línea adyacente (en este no-puesto) */
+  shape-margin: 1em; /* SOL. Margen que podemos dejar entre la forma definida por shape-outside y el texto que se distribuye alrededor. */
 }
 
 .imagen-hexagono img {
@@ -33,11 +33,11 @@
 @media (max-width: 37.5em) {
   .imagen-circulo {
     margin: 1em;
-    shape-outside: unset; /* SOL. */
+    shape-outside: unset; /* SOL. Define una forma (que puede no ser rectangular) alrededor de la cual debe envolverse el contenido en línea adyacente (en este no-puesto) */
   }
 
   .imagen-hexagono {
     margin: 1em;
-    shape-outside: unset; /* SOL. */
+    shape-outside: unset; /* SOL. Define una forma (que puede no ser rectangular) alrededor de la cual debe envolverse el contenido en línea adyacente (en este no-puesto) */
   }
 }
