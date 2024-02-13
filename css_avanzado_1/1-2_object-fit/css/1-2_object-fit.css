@@ -11,12 +11,12 @@
 }
 
 /* VER. Descomenta y prueba */
-/*
+
 .cabecera_bloque1 img {
   height: 100%; 
   width: 100%; 
 }
-*/
+
 
 .cabecera_bloque2 {
   height: 100vh; /* VER. */
@@ -24,12 +24,12 @@
 }
 
 /* VER. Descomenta y prueba */
-/*
+
 .cabecera_bloque2 img {
   height: 100%;
   width: 100%; 
 }
-*/
+
 .cabecera_titulo {
   position: absolute;
   top: 0;
