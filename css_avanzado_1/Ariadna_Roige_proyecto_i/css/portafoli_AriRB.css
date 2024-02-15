@@ -1,7 +1,7 @@
 /* El selector :root { } tiene más especificidad que la etiqueta html { } pero el resultado final es el mismo */
 
 :root {
-  --color: #0eaaaa; /* SOL. Los nombres de propiedades que tienen el prefijo -- representan propiedades personalizadas que contienen un valor que se puede usar en otras declaraciones usando la función var(). */
+  --color: #730eaab4; /* SOL. Los nombres de propiedades que tienen el prefijo -- representan propiedades personalizadas que contienen un valor que se puede usar en otras declaraciones usando la función var(). */
   --fuente_resumen: 30xp;
   --fuente_cuerpo: 60xp;
   /* EJERCICIO. Define dos variables: fuente_resumen y fuente_cuerpo y asigna valores por defecto en 30px y 60px */
@@ -9,7 +9,7 @@
 
 @media (max-width: 37.5em) {
   :root {
-    --color: #e177d8; /* SOL. Los nombres de propiedades que tienen el prefijo -- representan propiedades personalizadas que contienen un valor que se puede usar en otras declaraciones usando la función var(). */
+    --color: #71a8de; /* SOL. Los nombres de propiedades que tienen el prefijo -- representan propiedades personalizadas que contienen un valor que se puede usar en otras declaraciones usando la función var(). */
     --fuente_resumen: 30xp;
     --fuente_cuerpo: 60xp;
     /* EJERCICIO. Redefine las variables: fuente_resumen y fuente_cuerpo y asigna los valores en 20px y 40px */
@@ -36,6 +36,6 @@
 
 .imagen-circulo,
 .imagen-hexagono {
-  --color: #d18d66; /* SOL. Los nombres de propiedades que tienen el prefijo -- representan propiedades personalizadas que contienen un valor que se puede usar en otras declaraciones usando la función var(). */
+  --color: #ac66d164; /* SOL. Los nombres de propiedades que tienen el prefijo -- representan propiedades personalizadas que contienen un valor que se puede usar en otras declaraciones usando la función var(). */
   background: var(--color);
 }
