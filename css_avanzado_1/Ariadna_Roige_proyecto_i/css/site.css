@@ -46,11 +46,11 @@ h2 {
 }
 
 p {
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .cabecera {
-  background: linear-gradient(38deg, #000428, #0161b6);
+  background: linear-gradient(38deg, #000428, #6801b6);
   color: #fafafa;
   display: flex;
   position: relative;
@@ -114,7 +114,7 @@ p {
 
 .articulo {
   max-width: 54em;
-  margin: 5em auto;
+  margin: 3em auto;
   padding: 0 3em;
 }
 
@@ -126,7 +126,7 @@ p {
   font-weight: 600;
   font-size: 115%;
   line-height: 1.7;
-  color: #004e92;
+  color: #012544;
   text-align: justify;
   hyphens: auto;
 }
@@ -140,8 +140,8 @@ p {
   margin: auto;
 }
 .articulo_cuerpo > p:first-child::first-letter {
-  color: #0161b6;
-  font-size: 12rem;
+  color: #6501b6;
+  font-size: 50rem;
   line-height: 0.75;
   float: left;
   padding-right: 1rem;
