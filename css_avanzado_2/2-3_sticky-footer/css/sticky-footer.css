@@ -21,8 +21,10 @@ body {
   Esta propiedad se aplica a un elemento contenedor, y los hijos directos 
   de dicho contenedor se alinearán siguiendo las propiedades de flexbox. 
   No se hereda al resto de contenedores descendientes. */
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Propiedad de contenedor que permite alinear el contenido en el eje
+  principal, con (en este caso) el centro. */
+  align-items: center; /* Propiedad de contenedor que permite alinear el contenido en el eje
+  cruzado, con (en este caso) el centro. */
 }
 
 .footer {
@@ -44,7 +46,5 @@ body {
   font-size: 1.2em;
   line-height: 1.4;
   /*** VER 2. quita el comentario y mira que sucede ***/
-  /*
-  min-height: 5000px;
-  */
+  min-height: 500px;
 }
