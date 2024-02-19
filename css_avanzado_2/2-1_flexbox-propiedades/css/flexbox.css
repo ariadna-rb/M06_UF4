@@ -21,27 +21,32 @@
 
   /*** VER 4. Probando la propiedad flex-wrap. Prueba con todos los valores posibles ***/
  flex-wrap: wrap;
+
   /*** VER 9. Alineación con flexbox ***/
-  /* justify-content: flex-start; */
+  justify-content: flex-start;
+
   /*** SOL. 7 ***/
-  /* justify-content: ; */
+  justify-content: flex-end;
+  min-height: 100vh;
+
   /*** VER 10 ***/
-  /* justify-content: space-between; */
-  /* justify-content: space-around; */
+  justify-content: space-between; 
+  justify-content: space-around; 
+
   /*** VER 11 ***/
-  /* align-items: flex-start; */
+  align-items: flex-start;
+
   /*** VER 12 ***/
-  /*
   min-height: 50vh;
   align-items: center;
-  */
+  align-self: auto;
+  
+
   /*** VER 13. Muestra todos los div del HTML para hacer estas pruebas ***/
-  /*
   min-height: 50vh;
   align-items: flex-start;
   flex-wrap: wrap;
   align-content: space-between;
-  */
 }
 
 .animadora {
@@ -55,40 +60,47 @@
   font-style: italic;
   font-size: 1.2em;
   line-height: 1.4;
+
   /*** VER 5. Hacer crecer a todos los elementos cuando hay espacio. Mira qué sucede si reduces y amplias la ventana del navegador ***/
-  /* flex-grow: 1; */
+  /*flex-grow: 1; */
+
   /*** VER 6. Hacer que se reduzcan todos los elementos cuando hay espacio. Mira qué sucede si reduces y amplias la ventana del navegador ***/
-  /* flex-shrink: 1; */
+  flex-shrink: 1;
+
   /*** VER 8. Alterar el orden visual de los elementos. Esto no cambia el orden real en el HTML, por tanto, hay que cuidar que no sean elementos de navegación , etc. Puede provocar efectos indeseados ***/
   order: 0;
 }
 
 .anim1 {
   /*** VER 7.Probando como puedo trabajar con las propiedades flex en elementos y contenedores. Qué sucede si el display: flex; no está definido  ***/
-  /* flex-basis: 500px; */
+  flex-basis: 500px;
 }
 
 .anim2 {
   /*** SOL. 2 ***/
-  /* flex-grow: ; */
+  flex-grow: 2; 
 }
 
 .anim3 {
   /*** SOL. 3 ***/
-  /* flex-grow: ; */
+  /* flex-grow: 4; */
+
   /*** SOL. 4 ***/
-  /* flex-shrink: ; */
+  flex-shrink: 2;
+
   /*** VER 12 ***/
   /* align-self: flex-start; */
 }
 
 .anim4 {
   /*** SOL. 5 ***/
-  /* flex-shrink: ; */
+  flex-shrink: 0;
+
   /*** SOL. 6 ***/
-  /* order: ; */
+  order: -1;
+
   /*** VER 12 ***/
-  /* margin: auto; */
+  margin: auto;
 }
 
 
