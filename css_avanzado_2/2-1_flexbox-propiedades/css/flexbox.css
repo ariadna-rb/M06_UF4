@@ -3,18 +3,24 @@
   /*** Primeras pruebas con flexbox 1-2-3-4 ***/
   /*** VER 1. Probando propiedad display:flex; Definiendo un espacio flex ***/
    display: flex; 
+
   /*** VER 2. Probando las direcciones en que se puede alinear con flex. Por defecto es row ***/
-  /* flex-direction: column; */
+  /*** 
+  flex-direction: column-reverse;
+  flex-direction: row-reverse;
+  ***/
   /*** SOL. 1 ***/
-  /* flex-direction: ; */
+  flex-direction: row;
   border: 2px solid white;
+  /*** SOL. 1 - Comentario: parte del contenido nuevo se queda fuera del rectangulo blanco definido a no ser que redimendiones la pantalla. ***/
+
+
   /*** VER 3. Centrar el contenido fácilmente con flex-direction y luego definiendo el alto y justificando el contenido. Vuelve a comentarlo cuando termines las pruebas ***/
-  /*
   min-height: 100vh;
   justify-content: center;
-  */
+
   /*** VER 4. Probando la propiedad flex-wrap. Prueba con todos los valores posibles ***/
-  /* flex-wrap: wrap; */
+ flex-wrap: wrap;
   /*** VER 9. Alineación con flexbox ***/
   /* justify-content: flex-start; */
   /*** SOL. 7 ***/
