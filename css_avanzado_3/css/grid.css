@@ -35,31 +35,34 @@
   a la que se aplica para grid-template. */
   
   /*** Ej1_9.   ***/
-  grid-template: 300px 1fr 200px / 300px 3fr 100px 2fr;
+  /* grid-template: 300px 1fr 200px / 300px 3fr 100px 2fr; */
   
   /*** Ej2_1.   ***/
-
+  /* grid-auto-flow: column; */
   
-   /*** Ej2_2.   ***/
+  /*** Ej2_2.   ***/
+  grid-auto-columns: 50px;
+  grid-auto-rows: 1fr;
 
+  /*** Ej2_3.   ***/
+  /* grid-auto-flow: row / column; */
+
+  /*** Ej2_4.   ***/
+  /* grid-template-columns: 200px 100px auto; */
+  /* Las primeras 2 columnas ocupan lo especificado y la ultima ocupara 
+  el resto de la paguina a lo ancho de forma automatica. */
   
-   /*** Ej2_3.   ***/
-
-  
-   /*** Ej2_4.   ***/
-
-  
-   /*** Ej2_5.   ***/
-   /* grid-template-columns: 200px repeat(8, 100px); */
+  /*** Ej2_5.   ***/
+  /* grid-template-columns: 200px repeat(8, 100px); */
    
-   /*** Ej2_6.   ***/
-
+  /*** Ej2_6.   ***/
+  /* grid-template-columns: 300px repeat(4, 100px 200px 1fr); */
    
-   /*** Ej2_7.   ***/
-
+  /*** Ej2_7.   ***/
+  grid-template-columns: 300px repeat(4, 100px);
    
-   /*** Ej2_8.   ***/
-   
+  /*** Ej2_8.   ***/
+  grid-template-rows: repeat(3, 200px) 500px 200px;
    
 }
 
