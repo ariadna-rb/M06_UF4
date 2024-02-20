@@ -5,42 +5,61 @@
   display: grid;
 
   /*** Ej1_2. Declarando el número de columnas del espacio grid  ***/
-  grid-template-columns: 25% 25% 25% 25%;
+  /* grid-template-columns: 25% 25% 25% 25%; */
 
   /*** Ej1_3.   ***/
-  grid-template-columns: 25% 12.5% 50% 12.5%;
+  /* grid-template-columns: 25% 12.5% 50% 12.5%; */
+  
   /* Como vemos, ahora cada recuadro tiene un pequeño matgen 
   y no se tocan entre ellos gracias al margen que hemos especificado más abajo. */
 
   /*** Ej1_4.   ***/
+  /* grid-template-columns: 25% 25% 25% 25%; */
+  /* grid-gap: 20px; /* Se crea un scroll lateral pk es 100% + 20px (tanto columnas verticales como horizontales). */
   
   /*** Ej1_5.   ***/
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
 
   /*** Ej1_6.   ***/
+  /* grid-template-columns: 1fr 3fr 1fr 2fr; */
   
   /*** Ej1_7.   ***/
+  /* grid-template-columns: 300px 3fr 100px 2fr; */
   
   /*** Ej1_8.   ***/
+   /*grid-template-rows: 300px 1fr 200px;*/
+
+  /* La cuarte columa desaparece y se distribuyen 
+  todols los valores en las 3 columnas que hemos especificado.
+  Permite declarar específicamente el número de columnas de un grid, de manera equivalente 
+  a la que se aplica para grid-template. */
   
   /*** Ej1_9.   ***/
+  grid-template: 300px 1fr 200px / 300px 3fr 100px 2fr;
   
   /*** Ej2_1.   ***/
+
   
    /*** Ej2_2.   ***/
+
   
    /*** Ej2_3.   ***/
+
   
    /*** Ej2_4.   ***/
+
   
    /*** Ej2_5.   ***/
    /* grid-template-columns: 200px repeat(8, 100px); */
    
    /*** Ej2_6.   ***/
+
    
    /*** Ej2_7.   ***/
+
    
    /*** Ej2_8.   ***/
+   
    
 }
 
@@ -56,6 +75,6 @@
   font-size: 1.2em;
   line-height: 1.4;
   /*** Ej1_3.   ***/
-  margin: 1px; 
+  margin: 2px; 
   /* Como vemos, ahora cada recuadro tiene un pequeño matgen y no se tocan entre ellos. */
 }
