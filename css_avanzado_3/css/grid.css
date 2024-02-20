@@ -2,13 +2,15 @@
 .contenedor {
   padding: 1em;
   /*** Ej1_1. Define en el contenedor un espacio Grid ***/
-  /* display: grid; */
+  display: grid;
 
   /*** Ej1_2. Declarando el número de columnas del espacio grid  ***/
-  /* grid-template-columns: 25% 25% 25% 25%; */
+  grid-template-columns: 25% 25% 25% 25%;
 
   /*** Ej1_3.   ***/
-  /* grid-template-columns: ; */
+  grid-template-columns: 25% 12.5% 50% 12.5%;
+  /* Como vemos, ahora cada recuadro tiene un pequeño matgen 
+  y no se tocan entre ellos gracias al margen que hemos especificado más abajo. */
 
   /*** Ej1_4.   ***/
   
@@ -54,5 +56,6 @@
   font-size: 1.2em;
   line-height: 1.4;
   /*** Ej1_3.   ***/
-  /* margin: 1px; */ 
+  margin: 1px; 
+  /* Como vemos, ahora cada recuadro tiene un pequeño matgen y no se tocan entre ellos. */
 }
