@@ -1,0 +1,58 @@
+/* Propiedades del contenedor */
+.contenedor {
+  padding: 1em;
+  /*** Ej1_1. Define en el contenedor un espacio Grid ***/
+  /* display: grid; */
+
+  /*** Ej1_2. Declarando el número de columnas del espacio grid  ***/
+  /* grid-template-columns: 25% 25% 25% 25%; */
+
+  /*** Ej1_3.   ***/
+  /* grid-template-columns: ; */
+
+  /*** Ej1_4.   ***/
+  
+  /*** Ej1_5.   ***/
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+
+  /*** Ej1_6.   ***/
+  
+  /*** Ej1_7.   ***/
+  
+  /*** Ej1_8.   ***/
+  
+  /*** Ej1_9.   ***/
+  
+  /*** Ej2_1.   ***/
+  
+   /*** Ej2_2.   ***/
+  
+   /*** Ej2_3.   ***/
+  
+   /*** Ej2_4.   ***/
+  
+   /*** Ej2_5.   ***/
+   /* grid-template-columns: 200px repeat(8, 100px); */
+   
+   /*** Ej2_6.   ***/
+   
+   /*** Ej2_7.   ***/
+   
+   /*** Ej2_8.   ***/
+   
+}
+
+/* Propiedades del contenido */
+.elemento {
+  background-color: rgba(250, 250, 250, 0.8);
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+  color: #009229;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 1.2em;
+  line-height: 1.4;
+  /*** Ej1_3.   ***/
+  /* margin: 1px; */ 
+}
