@@ -1,0 +1,68 @@
+/** Ej7_6 **/
+:root{
+    --cols12: repeat(12, minmax(0, 1fr));
+    --cols6: repeat(6, minmax(0, 1fr));
+    --gap: 20px;
+}
+
+.contenedor {
+    padding: 1em;
+    /*** Definiendo retícula CSS Grid ***/
+    display: grid;
+    /*** Definiendo las columnas de la retícula CSS Grid ***/
+    grid-template-columns: repeat(12, 1fr);
+    /** Ej7_1 **/
+    /*
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    */
+    grid-gap: 20px;
+}
+
+.elemento {
+    background-color: rgba(250, 250, 250, 0.8);
+    color: #009229;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+
+/** Ej7_3 **/
+/*
+.elem1 {
+    grid-column: span 2;
+}
+*/
+
+/** Ej7_2 **/
+/*
+.elem2 {
+    grid-column: span 9;
+}
+*/
+
+/** Ej7_3 **/
+/*
+.elem4 {
+    grid-column: span 6;
+}
+*/
+
+/** Ej7_5 Comenta antes el Ej7_3 **/
+/*
+.elem4 {
+    grid-column: span 6;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    grid-gap: 20px;
+    padding: 0;
+}
+*/
+
+body {
+    background: linear-gradient(to top, #002808, #009229);
+}
