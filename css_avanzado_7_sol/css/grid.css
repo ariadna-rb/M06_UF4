@@ -32,28 +32,28 @@
 
 
 /** Ej7_3 **/
-/*
+
 .elem1 {
     grid-column: span 2;
 }
-*/
+
 
 /** Ej7_2 **/
-/*
+
 .elem2 {
     grid-column: span 9;
 }
-*/
+
 
 /** Ej7_3 **/
-/*
+
 .elem4 {
     grid-column: span 6;
 }
-*/
+
 
 /** Ej7_5 Comenta antes el Ej7_3 **/
-/*
+
 .elem4 {
     grid-column: span 6;
     display: grid;
@@ -61,7 +61,7 @@
     grid-gap: 20px;
     padding: 0;
 }
-*/
+
 
 body {
     background: linear-gradient(to top, #002808, #009229);
