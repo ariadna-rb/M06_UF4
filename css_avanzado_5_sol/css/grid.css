@@ -1,0 +1,78 @@
+.contenedor {
+    padding: 1em;
+    /*** Definiendo retícula CSS Grid ***/
+    display: grid;
+    /*** Definiendo las filas y columnas de la retícula CSS Grid ***/
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+    /*** Ej5_1. Definiendo las áreass de la retícula CSS Grid ***/
+    /*
+    grid-template-areas: "header header header header"
+                        "contenido contenido contenido sidebar"
+                        "contenido contenido contenido sidebar"
+                        "contenido contenido contenido sidebar"
+                        "footer footer footer footer" ;
+     */
+    /*** Ej5_5. Modificando las áreass de la retícula CSS Grid ***/ 
+    grid-template-areas: "header header header header"
+                        "contenido contenido contenido sidebar"
+                         "contenido contenido contenido sidebar"
+                         ".      .       .       sidebar"
+                         "footer footer footer footer" ;                  
+    grid-gap: 20px;
+}
+
+/*** Ej5_3. Creando una media query  ***/
+/*
+@media (max-width: 600px) {
+    .contenedor {
+        grid-template-areas: "header header header header"
+                             "contenido contenido contenido contenido"
+                             "contenido contenido contenido contenido"
+                             "sidebar sidebar sidebar sidebar"
+                             "footer footer footer footer" ;  
+    }
+}
+*/
+/*** Ej5_4. Alternativa 2 ***/
+@media (max-width: 600px) {
+    .contenedor {
+        grid-template: repeat(4, 1fr) / 1fr;
+        grid-template-areas: "header"
+                             "contenido"
+                             "sidebar"
+                             "footer" ;  
+    }
+}
+
+.elemento {
+    background-color: rgba(250, 250, 250, 0.8);
+    color: #009229;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+/*** Ej 5_2 ***/
+.elem1 {
+    grid-area: header;
+}
+
+.elem2 {
+    grid-area: contenido;
+}
+
+.elem3 {
+    grid-area: sidebar;
+}
+
+.elem4 {
+    grid-area: footer;
+}
+
+body {
+    background: linear-gradient(to top, #002808, #009229);
+}
