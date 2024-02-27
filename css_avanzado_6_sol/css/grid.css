@@ -6,21 +6,17 @@
     grid-template: repeat(6, 200px) / repeat(4, 200px); 
     grid-gap: 20px;
     /** Ej6_1 **/
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly; 
     /** Ej6_2 **/
-    /* justify-items: center; */
+    justify-items: center;
     /** Ej6_4 **/
-        /*
         height: 100vh;
         grid-template: repeat(2, 200px) / repeat(4, 200px);
         align-content: end; 
-        */
     /** Ej6_5 **/
-    /*
-    height: 100vh;
-    grid-template: repeat(2, 200px) / repeat(4, 200px);
-    align-items: center;
-    */
+        height: 100vh;
+        grid-template: repeat(2, 200px) / repeat(4, 200px);
+        align-items: center;
 }
 
 .elemento {
@@ -39,11 +35,11 @@
     background-color: #023411;
     color: white;
     /** Ej6_3 **/
-    /* justify-self: center; */
+    justify-self: center; 
     /** Ej6_6 **/
-    /* align-self: start; */
+    align-self: start; 
     /** Ej6_7 **/
-    /* order: 1; */
+    order: 1; 
 }
 
 body {
