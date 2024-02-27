@@ -1,0 +1,51 @@
+.contenedor {
+    padding: 1em;
+    /*** Definiendo retícula CSS Grid ***/
+    display: grid;
+    /*** Definiendo las filas y columnas de la retícula CSS Grid ***/
+    grid-template: repeat(6, 200px) / repeat(4, 200px); 
+    grid-gap: 20px;
+    /** Ej6_1 **/
+    /* justify-content: space-evenly; */
+    /** Ej6_2 **/
+    /* justify-items: center; */
+    /** Ej6_4 **/
+        /*
+        height: 100vh;
+        grid-template: repeat(2, 200px) / repeat(4, 200px);
+        align-content: end; 
+        */
+    /** Ej6_5 **/
+    /*
+    height: 100vh;
+    grid-template: repeat(2, 200px) / repeat(4, 200px);
+    align-items: center;
+    */
+}
+
+.elemento {
+    background-color: rgba(250, 250, 250, 0.8);
+    color: #009229;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.4;
+}
+
+.elem1 {
+    background-color: #023411;
+    color: white;
+    /** Ej6_3 **/
+    /* justify-self: center; */
+    /** Ej6_6 **/
+    /* align-self: start; */
+    /** Ej6_7 **/
+    /* order: 1; */
+}
+
+body {
+    background: linear-gradient(to top, #002808, #009229);
+}
