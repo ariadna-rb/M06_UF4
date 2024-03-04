@@ -39,7 +39,7 @@
 
 .animador_contenido {
   padding: 1em 1em 0;
-  flex-grow: 1; /* indicarle al elemento si debe expandirse para ocupar el espacio sobrante. 
+  flex-grow: 2; /* indicarle al elemento si debe expandirse para ocupar el espacio sobrante. 
   Por defecto es 0 (no expandirse) pero cualquier valor positivo asignará una proporción de 
   reparto del espacio sobrante (si todos los elementos tienen 1, lo reparten proporcionalmente, 
   y si uno tiene un 2, cogerá el doble de espacio sobrante). */
