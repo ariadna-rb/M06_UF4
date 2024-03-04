@@ -1,0 +1,50 @@
+/* body {
+  background: linear-gradient(38deg, #000428, #009249);
+  min-height: 100vh;
+  display: flex; /* Propiedad que permite crear un espacio flex. 
+  Esta propiedad se aplica a un elemento contenedor, y los hijos directos 
+  de dicho contenedor se alinearán siguiendo las propiedades de flexbox. 
+  No se hereda al resto de contenedores descendientes. */
+  /* flex-direction: column;/* indica la dirección del eje principal a
+  partir del cual se alinearán los elementos. Los valores pueden ser row
+  (fila, por defecto), column (columna), row-reverse (fila inversa) o
+  column-reverse (columna inversa). */
+/* } */
+
+/*.contenedor { */
+  /*** VER 1. Comenta la siguiente línea ***/
+  /*flex-grow: 1; /* indicarle al elemento si debe expandirse para ocupar el espacio sobrante. 
+  Por defecto es 0 (no expandirse) pero cualquier valor positivo asignará una proporción de 
+  reparto del espacio sobrante (si todos los elementos tienen 1, lo reparten proporcionalmente, 
+  y si uno tiene un 2, cogerá el doble de espacio sobrante). */
+  /*display: flex; /* Propiedad que permite crear un espacio flex. 
+  Esta propiedad se aplica a un elemento contenedor, y los hijos directos 
+  de dicho contenedor se alinearán siguiendo las propiedades de flexbox. 
+  No se hereda al resto de contenedores descendientes. */
+  /*justify-content: center; /* Propiedad de contenedor que permite alinear el contenido en el eje
+  principal, con (en este caso) el centro. */
+  /*align-items: center; /* Propiedad de contenedor que permite alinear el contenido en el eje
+  cruzado, con (en este caso) el centro. */
+/*} */
+
+.footer {
+  background-color: #f7e7ff;
+  color: #530092;
+  font-size: 80%;
+  font-style: italic;
+  padding: 0.5em 2em;
+}
+
+/*.animador {
+  background-color: rgba(250, 250, 250, 0.8);
+  margin: 1em;
+  padding: 2em;
+  border-radius: 10px;
+  text-align: center;
+  color: #009249;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1.4;
+  /*** VER 2. quita el comentario y mira que sucede ***/
+  /*min-height: 500px;*/
+/*} */

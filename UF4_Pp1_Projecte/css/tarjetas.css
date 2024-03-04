@@ -1,0 +1,100 @@
+.contenedor {
+  padding: 4em 2em;
+  display: flex; /* Propiedad que permite crear un espacio flex. 
+  Esta propiedad se aplica a un elemento contenedor, y los hijos directos 
+  de dicho contenedor se alinearán siguiendo las propiedades de flexbox. 
+  No se hereda al resto de contenedores descendientes. */
+  justify-content: center; 
+}
+
+.animador {
+  max-width: 20em;
+  margin: 1em;
+  border-radius: 10px;
+  background-color: rgba(250, 250, 250, 0.95);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  display: flex; /* Propiedad que permite crear un espacio flex. 
+  Esta propiedad se aplica a un elemento contenedor, y los hijos directos 
+  de dicho contenedor se alinearán siguiendo las propiedades de flexbox. 
+  No se hereda al resto de contenedores descendientes. */
+  flex-direction: column; /* indica la dirección del eje principal a
+  partir del cual se alinearán los elementos. Los valores pueden ser row
+  (fila, por defecto), column (columna), row-reverse (fila inversa) o
+  column-reverse (columna inversa). */
+}
+
+.animador_imagen {
+  max-height: 20em;
+  overflow: hidden;
+  background: linear-gradient(38deg, #000428, #004e92);
+  border-radius: 10px 10px 0 0;
+}
+
+.animador_imagen img {
+  object-fit: cover;
+  display: block;
+  opacity: 0.4;
+  filter: grayscale(100%);
+}
+
+.animador_contenido {
+  padding: 1em 1em 0;
+  flex-grow: 1; /* indicarle al elemento si debe expandirse para ocupar el espacio sobrante. 
+  Por defecto es 0 (no expandirse) pero cualquier valor positivo asignará una proporción de 
+  reparto del espacio sobrante (si todos los elementos tienen 1, lo reparten proporcionalmente, 
+  y si uno tiene un 2, cogerá el doble de espacio sobrante). */
+  display: flex; /* Propiedad que permite crear un espacio flex. 
+  Esta propiedad se aplica a un elemento contenedor, y los hijos directos 
+  de dicho contenedor se alinearán siguiendo las propiedades de flexbox. 
+  No se hereda al resto de contenedores descendientes. */
+  flex-direction: column; /* indica la dirección del eje principal a
+  partir del cual se alinearán los elementos. Los valores pueden ser row
+  (fila, por defecto), column (columna), row-reverse (fila inversa) o
+  column-reverse (columna inversa). */
+}
+
+.animador_cabecera {
+  border-bottom: 1px solid rgba(0, 78, 146, 0.2);
+  margin-bottom: 1em;
+  display: flex; /* Propiedad que permite crear un espacio flex. 
+  Esta propiedad se aplica a un elemento contenedor, y los hijos directos 
+  de dicho contenedor se alinearán siguiendo las propiedades de flexbox. 
+  No se hereda al resto de contenedores descendientes. */
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.animador_nombre {
+  margin: 0;
+  color: #4e0092;
+  font-style: italic;
+}
+
+.animador_fechas {
+  color: gray;
+  font-size: 80%;
+}
+
+.animador_bio {
+  font-size: 0.8em;
+  line-height: 1.5;
+  flex-grow: 1; /* indicarle al elemento si debe expandirse para ocupar el espacio sobrante. 
+  Por defecto es 0 (no expandirse) pero cualquier valor positivo asignará una proporción de 
+  reparto del espacio sobrante (si todos los elementos tienen 1, lo reparten proporcionalmente, 
+  y si uno tiene un 2, cogerá el doble de espacio sobrante). */
+}
+
+.animador_pie {
+  background-color: #550092;
+  color: white;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+  margin-right: -1em;
+  margin-left: -1em;
+  margin-top: 1em;
+  padding: 0.5em;
+}
+
+body {
+  background: linear-gradient(38deg, #000428, #500092);
+}
