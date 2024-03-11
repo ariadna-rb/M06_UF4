@@ -34,7 +34,7 @@ const toppingsFondoMarron = document.getElementsByTagName('fondo-marron');
 console.log(toppingsFondoMarron);
 
 
-// Seleccionar elemento por SelectorCSS (Normal y All).
+// Seleccionar elemento por SelectorCSS (Normal).
 
 /* const aceitunas = document.querySelector('#aceitunas');
 console.log(aceitunas); */
@@ -49,7 +49,8 @@ console.log(typeof primerToppingNaranja);
 console.log(primerToppingNaranja); */
 /* const primerToppingNoMarron = document.querySelector('ul li:not(.fondo-marron)');
 console.log(primerToppingNoMarron); */
-___
+
+// Seleccionar elemento por SelectorCSS (All).
 
 const toppingsFondoNaranja = document.querySelectorAll('.topping.fondo-naranja');
 console.log(toppingsFondoNaranja);
@@ -57,3 +58,9 @@ console.log(toppingsFondoNaranja[0]);
 console.log(toppingsFondoNaranja[1]);
 console.log(toppingsFondoNaranja.length);
 console.log(typeof toppingsFondoNaranja);
+
+
+//Assignar estilo con JavaScript
+const primerTopping = document.querySelector('.topping' );
+console.log(primerTopping);
+
