@@ -64,3 +64,4 @@ console.log(typeof toppingsFondoNaranja);
 const primerTopping = document.querySelector('.topping' );
 console.log(primerTopping);
 
+//min 1:36:12 del video
