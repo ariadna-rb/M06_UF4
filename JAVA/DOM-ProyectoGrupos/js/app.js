@@ -27,17 +27,18 @@ function agregarTares(){
      eliminar.classList.add('bi', 'bi-trash3-fill', 'icono-eliminar');
      eliminar.addEventListener('click', eliminarTarea);
        
+     //iconos.appendChild(completar, eliminar);
      iconos.append(completar, eliminar);
 
      // Agregar la tarea a la lista.
-     listaDeTareas.appendChild(tareaNueva);
+     listaDeTarea.appendChild(tareaNueva);
         
     } else {
      alert('Por favor ingresa una tarea.');
     }
 }
 
-boton.addEventListener('click','agregarTarea');
+buton.addEventListener('click', agregarTares);
 
 // Marcar una tarea como completada.
 function completarTarea(e) {
