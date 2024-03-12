@@ -47,7 +47,7 @@ input {
   font-size: 25px;
   margin: 20px;
   padding: 10px;
-  border: 4px solid #404040;
+  border: 4px solid #683397;
   border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@ button {
   height: 60px;
   padding: 10px;
   color: white;
-  background-color: #1312a8;
+  background-color: #683397;
   font-size: 22px;
   border-radius: 20px;
   border: 0px solid black;
@@ -112,7 +112,7 @@ i {
 }
 
 .icono-completar {
-  color: rgb(0, 255, 0);
+  color: rgb(255, 0, 255);
 }
 
 .icono-eliminar {
