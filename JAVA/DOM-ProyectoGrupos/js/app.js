@@ -51,3 +51,9 @@ function eliminarTarea(e) {
 let tarea = e.target.parentNode.parentNode;
 tarea.remove();
 }
+
+input.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+    agregarTares();
+    }
+} );
