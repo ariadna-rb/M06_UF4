@@ -1,3 +1,5 @@
+//Integrantes del Grupo: Sebas C, Aina G, Laura R, Garard R, Ariadna R
+
 const input = document.getElementById('ingresar-tarea');
 const buton = document.querySelector('button');
 const listaDeTarea = document.getElementById('lista-de-tareas');
