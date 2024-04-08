@@ -6,9 +6,26 @@
 //Ej.1
 function autoria(){
   //Código necesario para resolver el Ej1
+    const miNombre = document.getElementById('nombre');
+    document.addEventListener('click', miNombre);
+    miNombre.style.color (red);
+    miNombre.style.textAlign ('right');
+    miNombre.style.fontSize ('40px');
+
 }
 
 // Ej.2
+const crearP = document.getElementById('btnCrear'); 
+
+if(document.addEventListener('click',crearP)){
+    var parrafo = document.createElement("p");
+}
+
+crearP.style.color = 'white';
+crearP.style.backgroundColor = 'black';
+crearP.style.fontSize = '20px';
+crearP.style.alignContent = 'center';
+
 
 // Array con frases a emplear en el ejercicio
 const frases = [
@@ -32,22 +49,34 @@ function crear(){
 // Ej.3
 window.onload = function() {
     //Código necesario para resolver el Ej3
+    const contadorP = document.querySelectorAll('p', 'div', 'dom');
+    console.log(contadorP);
+    var texto = document.createTextNode("Numero de parrafos en el DOM: " + contadorP);
+    console.log (texto);
+
    
 }    
 
 // Ej.4
 function borrar(){
     //Código necesario para resolver el Ej4
+
 }
 
 // Ej.5
 function modif(){
    //Código necesario para resolver el Ej5
+   const modif = document.getElementsByClassName('paneles');
+   console.log(modif);
+   if(document.addEventListener('mausedown',modif)){
+    //modif.style.width = 100 px;
+    //modif.style.
+
+
+   }
+
 }
 
 function original(){
     //Código necesario para resolver el Ej5
 }
-
-// Event Listener
-
