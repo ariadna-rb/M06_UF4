@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // ----------------------------
+        // VARIABLES
+        // ----------------------------
+        let x = 10;
+        const y = 20;
+        x = 80;
+        // y = 2; // ERROR: las constantes son inmutables, no se pueden cambiar
+        console.log(y);
+        
+        // ----------------------------
+        // FUNCIONES
+        // ----------------------------
+
+        // Alternativa que usaremos 
+        const multiplicacion1 = (a, b) => {
+            return a * b;
+        }
+
+        function multiplicacion2(a, b) {
+            return a * b;
+        }
+        
+        const resultado = multiplicacion1(2,3);
+        console.log(resultado);
+        console.log(multiplicacion2(2,3));
+
+        // ----------------------------
+        // MATRICES (ARRAYS) y OBJETOS
+        // ----------------------------
+
+        const arr = []; // Declaración de matrices con corchetes
+        const obj = {}; // Declaración de objetos con llaves
+
+        // Ejemplos de declaraciones 
+
+        const colores = ['blue', 'green', 'yellow', 'red'];
+        const poligonos = { lados: 5, radio: 120};
+
+        // Acceder a los datos de una matriz
+        console.log(colores[0]); // Salida: blue
+        // Acceder a las propiedades de un objeto
+        console.log(poligonos.lados); // Salida: 5
+
+        // ----------------------------
+        // BUCLES (LOOPS)
+        // ----------------------------
+
+        // Alternativas para recorrer una matriz
+        
+        for (let i=0; i<colores.length; i++) {
+            console.log(i, colores[i]);
+        }
+
+        colores.forEach((item,i) => {
+                console.log(i, item);
+            });
+
+        // ----------------------------
+        // CONDICIONALES
+        // ----------------------------    
+        if(true) console.log('SI');
+        else console.log('NO');
+
+        //Operador ternario. Condicional más compacta usada en la declaración de variables
+        let noche = false; 
+        let backgroundColor;
+        
+        backgroundColor = (noche) ? 'black' : 'white'; // Usando operador ternario
+        // Equivalente a la expresión anterior con op. ternario
+        if (noche == true) backgroundColor = 'black';
+        else backgroundColor = 'white'; 
+
+        console.log(backgroundColor);    
+        document.body.style.backgroundColor = backgroundColor;   // Acceso al DOM para cambiar el color del fondo de la página 
+
+        // ----------------------------
+        // FUNCIONES ASÍNCRONAS : async | await 
+        // ----------------------------  
+
+        
+        // En JS el código se interpreta por defecto de forma síncrona
+        /*
+        console.log(topping); // ERROR: topping no está definida    
+        const topping = 'chocolate';
+        console.log(topping); // Salida: chocolate
+        */
+
+       // A veces necesitamos ejecutar código que no se resuelve de forma instantánea
+       // Llamar algo en una línea no significa que obtengamos el resultado antes de que se interprete la siguiente línea     
+       // Ejemplo: cuando queremos cargar una imagen
+       /*
+       const loadImage = (url) => {
+            const img = new Image();
+            img.src = url;
+            return img;
+        };
+
+        const miImagen = loadImage('https://picsum.photos/200'); // Cargar una imagen es una tarea asíncrona
+        console.log(miImagen.width); // Salida: 0, porque la imagen no ha terminado de cargarse antes de intentar leer su ancho. 
+        */
+
+        //Para resolver situaciones como la anterior de la carga asíncrona de las imágenes se usa el concepto JS promise y las funciones ASÍNCRONAS
+        // https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Promise
+        const loadImage = async (url) => {  // declarar la función como async
+            return new Promise((resolve, reject) => { // definir una nueva promesa, dentro de la función async, con dos parámetro resolve y reject
+                const img = new Image();
+                img.onload = () => resolve(img); // Al cargar la imagen resuelve la promesa y devuelve img, con resolve(img)
+                img.onerror = () => reject(); // En caso de no cargarse y dar un error se debe rechazar la promesa con reject()
+                img.src = url;
+            });
+        };
+
+        const start = async () => { // Otra función asíncrona llamada start
+            const miImagen = await loadImage('https://picsum.photos/200'); // Cargar una imagen es una tarea asíncrona
+            console.log(miImagen.width); // Salida: 0, porque la imagen no ha terminado de cargarse antes de intentar leer su ancho. 
+        };
+
+        start(); // Llamar start para ver el resultado con Chrome o Firefox
+        
+    </script>
+</body>
+</html>
